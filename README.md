@@ -1,2 +1,2 @@
-# employee-time-management-system
+# Employee-Time-Management-System
 This is a school team final project
