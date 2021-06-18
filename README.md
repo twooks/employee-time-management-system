@@ -11,9 +11,13 @@ This is a school team final project
     - [Users](#users)
     - [Functional Requirements](#functional-requirements)
       - [1. Authentication Module](#1-authentication-module)
-  - [Software Design Specification](#software-design-specification)
+  - [Software Design Description (SDD)](#software-design-description-sdd)
     - [User Interface Design](#user-interface-design)
+      - [Home page](#home-page)
+    - [Sign Up page](#sign-up-page)
     - [Database Design](#database-design)
+      - [Users Table](#users-table)
+      - [Attendance Table](#attendance-table)
 
 ## Objectives
 
@@ -36,12 +40,44 @@ This is a school team final project
 5. Reset password
 6. Edit profile
 
-## Software Design Specification
+## Software Design Description (SDD)
 
 ### User Interface Design
 
-This contain sketches of the interfaces
+This contain sketches of the interfaces. The sketches could draw by hand on a paper or use a prototyping tool like Figma.
+
+#### Home page
+
+![homepage](documentaion/images/homepage.png)
+
+- navigation bar
+- jumbotron / call to action
+- Testimonials
+- Footer
+
+### Sign Up page
 
 ### Database Design
 
 Contains tables of the database.
+
+#### Users Table
+
+| Column       | Type     | Lenght |
+| ------------ | -------- | ------ |
+| id           | int (PK) |
+| first_name   | tinytext |
+| last_name    | tinytext |
+| email        | tinytext |
+| password     | text     |
+| user_type    | text     |
+| last_updated | date     |
+
+#### Attendance Table
+
+| Column   | Type     | Lenght |
+| -------- | -------- | ------ |
+| id       | int (PK) |
+| emp_no   | int(FK)  |
+| time_in  | datetime |
+| time_out | datetime |
