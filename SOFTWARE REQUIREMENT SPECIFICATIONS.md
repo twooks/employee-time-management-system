@@ -19,7 +19,7 @@
 # USERS
 •	Employees will use the system to log in at the start and end of their working hours
 •	Supervisors/ managers will use the system to monitor and keep track of employee time
-•	Accountants will use it to calculate total working hours per employee
+Hr departmwnt may use this system to calculate wages and salary
 
 # FUNCTIONALITIES
 ## Authentication
