@@ -20,6 +20,13 @@ This is a school team final project
       - [Attendance Table](#attendance-table)
 
 ## Objectives
+## General objective
+•	To design and develop an automated employee working time management system to eliminate the need for human managers and supervisors
+## Specific objectives
+•	To design and develop a clock in module which will record the time an employee reports to work
+•	To design and develop a clock out module which will record the time an employee has left the place of work
+•	To develop a database for storing employee data 
+•	To develop a time counter to monitor the number of hours, minutes and seconds an employee spends at their station
 
 ## Software Requirements Specification
 
